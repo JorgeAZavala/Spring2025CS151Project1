@@ -26,7 +26,7 @@ public class Customer {
     }
 
     public void chooseCar(Store store) {
-        System.out.println("Choosing a car from store: " + store.getName());
+        System.out.println("Choosing a car from store: " + store.toString());
     }
 
     public String receive() {
@@ -42,16 +42,9 @@ public class Customer {
     public String getName() {
         return name;
     }
-
-
+    
     public void setName(String name) {
         this.name = name;
-
-    public double getDiscount() {
-        return memberDiscount;
-
-    public void chooseCar(Store store) {
-        System.out.println("Choosing a car from store: " + store.toString());
     }
 
     public int getMemberID() {
