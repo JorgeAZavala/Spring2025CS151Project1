@@ -10,10 +10,9 @@ public class Store {
 	double revenue;
 	double profit;
 
-<<<<<<< Updated upstream
-}
-=======
+
 	//Constructor
+
 	public Store(String city, String state) {
         this.city = city;
         this.state = state;
@@ -101,5 +100,3 @@ public class Store {
 	}
 	
 }
-
->>>>>>> Stashed changes
